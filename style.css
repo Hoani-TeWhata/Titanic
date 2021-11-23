@@ -1,0 +1,117 @@
+/*Default theme */
+
+
+
+
+/* Container */
+
+.grad {
+  background-image: linear-gradient(blue, black);
+}
+
+p {
+
+}
+
+/*header */
+.header {
+  color:white;
+  padding: 20px;
+
+}
+
+#logo {
+ float: left;
+ width: 40%;
+ border-radius: 50%;
+
+}
+
+    /* Navigation Bar 
+    https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidenav */
+  .sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 6px 6px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+    /* Contents */
+.content{
+  padding: 40px;
+  color: white;
+}
+.info{
+    background-color: white !important;
+    color: black;
+}
+    /* Footer */ 
+   /* Footer */
+
+   /*Fixed Footer Source: https://www.w3schools.com/howto/howto_css_fixed_footer.asp*/
+   .footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #111;
+   color: white;
+   text-align: center;
+   padding: 40px 
+   } 
+
+.titanicHeading{
+	display: inline-block;
+	width: 70%;
+	} 
+	
+
+#titanicList{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+#titanicList article{
+    flex-basis: 300px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    background: #eee;
+    margin: 1em;
+    padding: 1em;
+    border: solid black thin;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px #777;
+    color: blue;
+}
+
+
+
+
+
+
